@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+input,
+button {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  overflow-y: hidden;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 3rem 2%;
+  border-bottom: 1px solid #334155;
+  background: #1e293b;
+}
+
+.header-container {
+  width: 75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 15rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon-map-marker {
+  font-size: 3rem;
+  color: #facc15;
+}
+
+h1 {
+  color: #cbd5e1;
+}
+
+input[type='text'] {
+  width: 12rem;
+  padding: 0.5rem;
+  border: 0;
+  color: #ffff;
+  background: #1e293b;
+  box-shadow: 0 0 0 1px #fde047;
+  border-radius: 8px;
+}
+
+input[type='text']:focus {
+  outline: 0;
+  box-shadow: 0 0 0 2px #facc15;
+}
+
+input[type='text']::placeholder {
+  color: #6b7280;
+}
+
+label {
+  font-size: 0rem;
+  visibility: hidden;
+}
+
+#send {
+  width: 3rem;
+  padding: 0.5rem;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #4f46e5;
+  cursor: pointer;
+  font-size: 1rem;
+
+  transition: background-color 0.2s ease-in-out;
+}
+
+#send:hover {
+  background-color: #6366f1;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background: #334155;
+}
+
+.hide {
+  display: none;
+}
+
+.empty-cep {
+  color: #cbd5e1;
+
+  font-size: 0.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10rem auto;
+}
+
+.card {
+  width: 25rem;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #fde047;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  box-shadow: 0 1.5px 2.5px rgba(0, 0, 0, 0.8);
+}
+
+p {
+  color: #323232;
+  font-size: 1.5rem;
+  margin: 1rem 0 1rem;
+}
+
+#btn-clear {
+  width: 2.5rem;
+  padding: 0.5rem;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  background-color: #991b1b;
+  cursor: pointer;
+  font-size: 1.2rem;
+  position: absolute;
+  margin-top: -3rem;
+  margin-left: -3rem;
+
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.8);
+
+  transition: background-color 0.2s ease-in-out;
+}
+
+#btn-clear:hover {
+  background-color: #dc2626;
+}
+
+#results {
+  width: 78rem;
+
+  margin: 3rem auto;
+  padding: 0 2%;
+
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 0.5rem;
+}
