@@ -4,7 +4,9 @@
 - HTML 5;
 - CSS 3;
 - Javascript;
------
+----
+
+<p align="center">Consumo da API ViaCep para listar informações de CEP digitado em campo de busca por usuário e persistência de dados no localStorage.</p>
 
 
 
