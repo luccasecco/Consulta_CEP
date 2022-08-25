@@ -1,2 +1,12 @@
-# Consulta_CEP
-Projeto desenvolvido durante programa de aceleração DevForTech promovido pela Gama Academy em conjunto com ACATE com início 18 de Agosto de 2022.
+<h1 align="center">Consulta_CEP</h1>
+<p align="center">Projeto desenvolvido durante programa de aceleração DevForTech promovido pela Gama Academy em conjunto com ACATE</p>
+
+- HTML 5;
+- CSS 3;
+- Javascript;
+-----
+
+
+
+https://user-images.githubusercontent.com/101674470/186680715-872146f2-ce71-452d-b519-78f1cb297011.mp4
+
